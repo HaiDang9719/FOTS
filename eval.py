@@ -111,7 +111,7 @@ if __name__ == '__main__':
                         help='output dir for drawn images')
     parser.add_argument('-i', '--image_dir', default='./dataset/test', type=pathlib.Path, 
                         help='dir for input images')
-    parser.add_argument('-a', '--annotation_dir', default='./dataset/test_result', type=pathlib.Path, 
+    parser.add_argument('-a', '--annotation_dir', default='./dataset/test_labels', type=pathlib.Path, 
                         help='dir for input images')
                         
     args = parser.parse_args()
